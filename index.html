@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Zineb Djihane Agli - Research on Atrial Fibrillation Detection</title>
+<meta name="description" content="Research by Zineb Djihane Agli on deep learning, 1D CNN, ECG arrhythmia classification, and atrial fibrillation detection for wearable healthcare.">
+<meta name="keywords" content="atrial fibrillation detection, ECG arrhythmia, deep learning, 1D CNN, wearable healthcare, overfitting prevention, ECGBlocks, Afib-CNN">
+
+<!-- Schema.org JSON-LD -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Zineb Djihane Agli",
+  "url": "https://ze07.github.io/",
+  "affiliation": "Computer Science Researcher",
+  "sameAs": [
+    "https://scholar.google.com/citations?user=O78ZtqoAAAAJ&hl=en",
+    "https://orcid.org/0000-0000-0000-0000"
+  ],
+  "worksFor": {
+    "@type": "Organization",
+    "name": "Independent Researcher"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://ze07.github.io/"
+  },
+  "knowsAbout": [
+    "Atrial fibrillation detection",
+    "Electrocardiogram (ECG) analysis",
+    "Deep learning",
+    "1D CNN",
+    "Wearable healthcare"
+  ],
+  "hasPart": [
+    {
+      "@type": "ScholarlyArticle",
+      "name": "ECGBlocks: A New Block-Based Segmentation and Stacked CNN for Atrial Fibrillation Detection Using Short Single-Lead ECG",
+      "url": "https://doi.org/10.1007/s13369-024-09420-9",
+      "description": "Proposes ECGBlocks combining block-based ECG segmentation with stacked 1D-CNN for reliable AF detection.",
+      "keywords": "atrial fibrillation detection, ECG arrhythmia classification, 1D CNN, block-based segmentation, deep learning, single-lead ECG, real-time monitoring"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "name": "Mitigating Data Variability and Overfitting in Deep Learning Models for Atrial Fibrillation Detection Using Single-Lead ECGs",
+      "url": "https://dx.doi.org/10.12785/ijcds/1501120",
+      "description": "Presents Afib-CNN, a streamlined 1D CNN with preprocessing and augmentation to improve AF detection generalization.",
+      "keywords": "atrial fibrillation ECG, overfitting prevention, data variability mitigation, 1D CNN, generalization, pre-processing, wearable healthcare"
+    }
+  ]
+}
+</script>
+
+<style>
+body { font-family: Arial, sans-serif; line-height: 1.6; max-width: 900px; margin: auto; padding: 20px; }
+h1 { text-align: center; color: #2c3e50; }
+article { margin-bottom: 40px; }
+a { color: #0066cc; text-decoration: none; }
+a:hover { text-decoration: underline; }
+.keywords { font-style: italic; color: #555; }
+</style>
+</head>
+<body>
+
+<h1>Zineb Djihane Agli - Research on Atrial Fibrillation Detection</h1>
+
+<article>
+<h2><a href="https://doi.org/10.1007/s13369-024-09420-9" target="_blank">ECGBlocks: A New Block-Based Segmentation and Stacked CNN for Atrial Fibrillation Detection Using Short Single-Lead ECG</a></h2>
+<p><strong>Abstract:</strong> Convolutional neural networks (CNNs) are highly effective for automating electrocardiogram (ECG) analysis in atrial fibrillation (AF) detection, yet the challenge of analyzing variable-length ECG segments hinders consistent model performance. We introduce ECGBlocks, a method that combines block-based ECG segmentation with a stacked 1D-CNN architecture, enabling the extraction of rich localized feature maps and reliable AF classification via a softmax layer. Tested on three diverse datasets—PhysioNet/CinC Challenge 2017, CPSC2018, and MIT-BIH AFDB—ECGBlocks achieved outstanding mean F1 scores: 85% (four-class), 87% (three-class), and 98% (binary) on CinC2017, with similarly high performance elsewhere. This work advances real-time single-lead ECG processing for efficient and accurate atrial fibrillation detection in wearable healthcare.</p>
+<p class="keywords"><strong>Keywords:</strong> atrial fibrillation detection, ECG arrhythmia classification, 1D CNN, block-based segmentation, deep learning, single-lead ECG, real-time monitoring</p>
+</article>
+
+<article>
+<h2><a href="https://dx.doi.org/10.12785/ijcds/1501120" target="_blank">Mitigating Data Variability and Overfitting in Deep Learning Models for Atrial Fibrillation Detection Using Single-Lead ECGs</a></h2>
+<p><strong>Abstract:</strong> Deep learning for single-lead ECG-based AF detection often struggles with overfitting and data variability, especially in wearable ECGs with limited annotations. We propose Afib-CNN, a streamlined 1D CNN designed for short 9-second ECG recordings. Our framework applies advanced preprocessing—including MAConv filtering, min–max and z-score normalization—and uses a shifted-length overlapping method for data augmentation and class balancing. Validated on three public datasets (CinC2017, CPSC2018, MIT-AFIB), Afib-CNN reached mean F1 scores of 98%, 97%, and 99%, respectively, with 98% F1 on the CinC2017 test. This effective pairing of preprocessing and augmentation mitigates overfitting and ensures robust cross-dataset generalization, making it ideal for wearable ECG-based AF detection deployment.</p>
+<p class="keywords"><strong>Keywords:</strong> atrial fibrillation ECG, overfitting prevention, data variability mitigation, 1D CNN, generalization, pre-processing, wearable healthcare</p>
+</article>
+
+</body>
+</html>
